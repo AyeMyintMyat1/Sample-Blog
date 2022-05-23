@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="../materialize/css/materialize.min.css" media="screen,projection" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    .h{
+      width: 300px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Materialize Css Framework</h1>
+  <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
+  <a class="btn-floating btn-large waves-effect waves-light #ec407a pink lighten-1"><i
+      class="material-icons">add</i></a>
+  <div class="fixed-action-btn ">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+  </div>
+  <div class="fixed-action-btn toolbar">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">insert_chart</i></a></li>
+      <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">format_quote</i></a></li>
+      <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">publish</i></a></li>
+      <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col s6">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Card Title<i
+                class="material-icons right">more_vert</i></span>
+            <p><a href="#">This is a link</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+          <div class="card-image waves-effect waves-block waves-light">
+            <img src="../img/yibo4.jpg" width="300px">
+          </div>
+          <div class="card-action ">
+            <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
+            <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s6">
+
+        <div class="carousel">
+          <a class="carousel-item" href="#one!"><img src="../img/yibo1.jpg"></a>
+          <a class="carousel-item" href="#two!"><img src="../img/yibo4.jpg"></a>
+          <a class="carousel-item" href="#three!"><img src="../img/yibo5.jpg"></a>
+          <a class="carousel-item" href="#four!"><img src="../img/yibo6.jpg"></a>
+          <a class="carousel-item" href="#five!"><img src="../img/yibo7.jpg"></a>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="carousel">
+          <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a>
+          <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
+          <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
+          <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
+          <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
+        </div>
+      </div>
+      <a class="btn" onclick="Materialize.toast('I am a toast', 4000)">Toast!</a>
+      <div class="col s8">
+        <ul class="collapsible" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+            <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+            <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+            <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+          </li>
+        </ul>
+              
+      </div>
+      <div class="col s8">
+          <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal bottom-sheet">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Card Title<i
+              class="material-icons right">more_vert</i></span>
+          <p><a href="#">This is a link</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+        <div class="card-image waves-effect waves-block waves-light">
+          <img src="../img/yibo4.jpg" width="300px" class="h">
+        </div>
+        <div class="card-action ">
+          <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
+          <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../vendor/jquery.min.js"></script>
+  <script src="../materialize/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.carousel').carousel();
+    });
+    $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+      
+  $(document).ready(function(){
+    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+  });
+  </script>
+</body>
+
+</html>
